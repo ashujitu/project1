@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.big-wrapper{
+    width: 100%;
+    height: 400px;
+    background-image: url("/img/dd.jpg");
+    border-top: 10px solid #5385c1;
+
+}
+.header{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: 45px;
+}
+.header p{
+    float: left;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.header ul {
+    float: right;
+}
+.header li{
+    float: left;
+    list-style: none;
+    color: #fff;
+    margin: 15px;
+
+}
+
+
+
+/* .banner */
+
+.banner{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+    color: #fff;
+    
+}
+.banner h1{
+    text-align: center;
+    font-weight: 100;
+}
+.banner p{
+    text-align: center;
+   font-size: 16px;
+}
+/* three-section */
+.three-section{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 100px 0;
+   
+}
+.main{
+     float: left; 
+    max-width: 30%;
+    margin-right: 25px;
+
+}
+.main h2{
+    font-weight:300px ;
+    font-size: 25px;
+    color: #5385c1;
+    line-height: 35px;
+
+}
+.main p{
+    margin-top: 25px;
+    line-height: 25px;
+
+}
+.my-button{
+    width: 100px;
+    height: 40px;
+    background-color: #5385c1;
+    border: 0;
+    font-size: 20px;
+    color:#fff;
+     margin-top: 25px; 
+
+
+}
+.add-border{
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #bdbdbd;
+}
+
+/* blue box */
+.blue{
+    width: 100%;
+    background-color: #5385c1;
+    color: #fff;
+
+
+}
+.four-box{
+    width: 60%;
+    margin: 0 auto;
+    padding: 70px 0; 
+}
+.four-box h1{
+    font-weight: 200;
+    text-align: center;
+}
+.four-box p{
+    font-weight: 300;
+     text-align: center; 
+  
+}
+
+.humanbox{
+    width: 21%;
+    text-align: center;
+    border: 1px solid #fff;
+    float: left;
+    padding: 25px 5px;
+    margin: 10px;
+    margin-top: 65px;
+}
+ .humanbox img{
+    border-radius: 100%;
+    width: 70%;
+} 
+/* two-section */
+.two-section{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.two-section h1{
+    color: #5385c1;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 20px;
+}
+.two-section p{
+    font-size: 20px;
+    color: grey;
+
+
+}
+.two-section .left{
+    width: 45%;
+    float: left;
+    text-align: left;
+    
+}
+.two-section .right{
+    width: 45%;
+    float: right;
+    text-align: left;
+}
+.two-section h3{
+
+    color: #5385c1;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 20px;
+    padding: 30px;
+  
+    
+}
+
+.two-section p{
+
+    font-size: 16px;
+    line-height: 25px;
+   
+}
+
+.two-section  img{
+    width: 100%;
+
+}
+hr{
+    width: 60%;
+}
+.footer p{
+    width: 60%;
+     text-align: center; 
+}
+
+
+
